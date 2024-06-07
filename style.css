@@ -1,0 +1,115 @@
+body{
+    font-weight: 900px ;
+    text-transform: capitalize;
+    font-family: "Play", sans-serif;
+    background-color: rgba(161, 161, 161, 0.212);
+}
+.float-end{
+right: 10px;
+position: absolute;
+/* top: 0px; */
+/* margin-top: 0px; */
+}
+.float-start{
+position: absolute;
+left: 10px;
+}
+.container-fluid{
+border-radius: 20px;
+margin: 5px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background-color: white;
+    position: relative;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.box{
+    border: 2px solid red;
+    position: relative;
+    /* top: 50%; */
+    color: red;
+    /* right:  50%; */
+    height: 400px;
+    width: 300px;
+    transform: translate(50%,50%);
+}
+span{
+font-size: 14px;
+padding-right: 10px;
+}
+#pla{
+/* border: 1px solid red; */
+padding: 20px;
+background-color: white;
+border-radius: 50px;
+margin:10px 0px ;
+box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+#pla>input{
+outline: none;
+border: none;
+border-radius: 30px;
+padding: 10px 35px;
+box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+#pla>button:hover{
+transform: scale(1.2);
+background-color: white;
+color:  rgb(122, 76, 240);;
+border:0.01px solid  rgb(122, 76, 240);;
+}
+#pla>button{font-weight: 900;
+transition: 1.2s ease;
+text-transform: capitalize;
+font-family: "Play", sans-serif;
+border: none;
+border-radius: 30px;
+padding: 10px 25px;
+background-color: rgb(122, 76, 240);
+color: white;
+}
+.ed:hover{
+color: rgb(122, 76, 240);;
+border: 1px solid rgb(122, 76, 240);;
+background-color: white;
+}
+.re:hover{
+color: rgb(235, 46, 46);
+border: 1px solid  rgb(235, 46, 46);
+background-color: white;
+}
+.ed{
+transition: 1.2s ease;
+text-transform: capitalize;
+font-family: "Play", sans-serif;
+border: none;
+border-radius: 30px;
+padding: 10px 25px;
+color: white;font-weight: 900;
+background-color: rgb(122, 76, 240);
+}
+.re{
+background-color: rgb(235, 46, 46);
+transition: 1.2s ease;
+text-transform: capitalize;
+font-family: "Play", sans-serif;
+border: none;
+border-radius: 30px;
+padding: 10px 25px;
+color: white;
+font-weight: 900;
+}
+h3{
+    margin: 25px 0px;
+}
+h3>span{
+    /* margin: 10px 0px; */
+    font-size: 24px;
+    border-radius: 30px;
+    background-color:  rgb(122, 76, 240);;
+    color:  white;
+    padding: 20px;
+}
